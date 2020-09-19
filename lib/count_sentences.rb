@@ -27,6 +27,8 @@ class String
   end
 
   def count_sentences
-
+    self.split("."||"!"||"?").count 
+    puts count 
+    
   end
 end
