@@ -27,11 +27,11 @@ class String
   end
 
   def count_sentences 
-    self.split(/[.?!] /).each {|sentence| str.count(sentence) }
-        if self == 0 
+    self.split(/[.?!] /).each {|string| str.count(string) }
+        if string == 0 
           puts 0 
         else   
-          puts str.count(self)   
+          puts str.count(string)   
         end
       end   
 end
