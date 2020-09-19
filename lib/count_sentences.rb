@@ -31,7 +31,7 @@ class String
         if sentence == 0 
           puts 0 
         else   
-          puts str.count.sentence   
+          puts str.count(sentence)   
         end
       end   
 end
