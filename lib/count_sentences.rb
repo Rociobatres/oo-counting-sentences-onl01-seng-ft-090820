@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences(string) 
-    self.split(/[.?!] /).each {|sentence| sentence.count = total}
+    string.split(/[.?!] /).each {|sentence| sentence.count = total}
         if total == 0 
           puts 0 
         else   
