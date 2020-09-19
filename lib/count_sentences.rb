@@ -27,8 +27,8 @@ class String
   end
 
   def count_sentences(string) 
-    self.split(/[.?!] /).count = string 
-    puts string 
+    self.split(/[.?!] /).each {|sentence| sentence.count = total}
+    puts total  
     
   end
 end
